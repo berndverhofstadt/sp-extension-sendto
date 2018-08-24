@@ -17,8 +17,8 @@ import * as strings from 'SendEmailCommandSetStrings';
  */
 export interface ISendEmailCommandSetProperties {
   // This is an example; replace with your own properties
-  sampleTextOne: string;
-  sampleTextTwo: string;
+  listFieldTitle: string;
+  listFieldsEmail: string[];
 }
 
 const LOG_SOURCE: string = 'SendEmailCommandSet';
@@ -33,21 +33,18 @@ export default class SendEmailCommandSet extends BaseListViewCommandSet<ISendEma
 
   @override
   public onListViewUpdated(event: IListViewCommandSetListViewUpdatedParameters): void {
-    const compareOneCommand: Command = this.tryGetCommand('COMMAND_1');
-    if (compareOneCommand) {
+    const command: Command = this.tryGetCommand('spfxEmailTo');
+    if (command) {
       // This command should be hidden unless exactly one row is selected.
-      compareOneCommand.visible = event.selectedRows.length === 1;
+      command.visible = event.selectedRows.length >= 1;
     }
   }
 
   @override
   public onExecute(event: IListViewCommandSetExecuteEventParameters): void {
     switch (event.itemId) {
-      case 'COMMAND_1':
-        Dialog.alert(`${this.properties.sampleTextOne}`);
-        break;
-      case 'COMMAND_2':
-        Dialog.alert(`${this.properties.sampleTextTwo}`);
+      case 'spfxEmailTo':
+        Dialog.alert(`${this.properties.listFieldTitle}Test1`);
         break;
       default:
         throw new Error('Unknown command');

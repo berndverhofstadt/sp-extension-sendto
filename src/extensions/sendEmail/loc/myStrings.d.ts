@@ -1,6 +1,5 @@
 declare interface ISendEmailCommandSetStrings {
-  Command1: string;
-  Command2: string;
+  spfxEmailTo: string;
 }
 
 declare module 'SendEmailCommandSetStrings' {

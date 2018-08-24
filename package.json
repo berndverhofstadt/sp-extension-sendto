@@ -11,12 +11,14 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "@microsoft/sp-core-library": "1.5.1",
     "@microsoft/decorators": "1.5.1",
-    "@types/webpack-env": "1.13.1",
-    "@types/es6-promise": "0.0.33",
+    "@microsoft/sp-core-library": "1.5.1",
+    "@microsoft/sp-dialog": "1.5.1",
     "@microsoft/sp-listview-extensibility": "1.5.1",
-    "@microsoft/sp-dialog": "1.5.1"
+    "@pnp/common": "^1.1.4",
+    "@pnp/sp": "^1.1.4",
+    "@types/es6-promise": "0.0.33",
+    "@types/webpack-env": "1.13.1"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "1.5.1",

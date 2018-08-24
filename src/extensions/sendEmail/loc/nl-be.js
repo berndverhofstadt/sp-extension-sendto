@@ -1,5 +1,5 @@
 define([], function() {
   return {
-    "spfxEmailTo": "Send Email",
+    "spfxEmailTo": "Email Verzenden",
   }
 });
