@@ -6,6 +6,6 @@
         RegistrationType="List"
         Location="ClientSideExtension.ListViewCommandSet"
         ClientSideComponentId="a0784cae-d0ef-4a7e-9cf0-33e4d31bc759"
-        ClientSideComponentProperties="&quot;defaultTo&quot;:&quot;info@example.org&quot;, &quot;listFieldsEmail&quot;:	&#91;&quot;EMail&quot;,&quot;Email2&quot;, &quot;Email3&quot;&#93;&quot;">
+        ClientSideComponentProperties="{&quot;defaultTo&quot;:&quot;info@example.org&quot;, &quot;listFieldsEmail&quot;: [&quot;<email-field-one>&quot;,&quot;<email-field-two>&quot;]}">
     </CustomAction>
 </Elements>
