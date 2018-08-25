@@ -4,8 +4,8 @@
         Title="SendEmail"
         RegistrationId="100"
         RegistrationType="List"
-        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        Location="ClientSideExtension.ListViewCommandSet"
         ClientSideComponentId="a0784cae-d0ef-4a7e-9cf0-33e4d31bc759"
-        ClientSideComponentProperties="{&quot;sampleTextOne&quot;:&quot;One item is selected in the list.&quot;, &quot;sampleTextTwo&quot;:&quot;This command is always visible.&quot;}">
+        ClientSideComponentProperties="&quot;defaultTo&quot;:&quot;info@example.org&quot;, &quot;listFieldsEmail&quot;:[&quot;EMail&quot;,&quot;Email2&quot;, &quot;Email3&quot;]&quot;">
     </CustomAction>
 </Elements>

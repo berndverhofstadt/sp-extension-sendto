@@ -1,6 +1,6 @@
 ## sp-extension-sendto
 
-This is where you include your WebPart documentation.
+This is where you include your Extension documentation.
 
 ### Building the code
 
@@ -23,7 +23,7 @@ gulp clean - TODO
 gulp test - TODO
 gulp serve - TODO
 
-`?loadSPFX=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&customActions={"a0784cae-d0ef-4a7e-9cf0-33e4d31bc759":{"location":"ClientSideExtension.ListViewCommandSet","properties":{"listFieldTitle":"<list-field-title>", "listFieldsEmail": ["<list-field-email-one>","<list-field-email-two>"]}}}`
+`?loadSPFX=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&customActions={"a0784cae-d0ef-4a7e-9cf0-33e4d31bc759":{"location":"ClientSideExtension.ListViewCommandSet","properties":{"defaultTo":"info@example.org", "listFieldsEmail": ["<list-field-email-one>","<list-field-email-two>"]}}}`
 
 
 gulp bundle - TODO
