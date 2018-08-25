@@ -3,14 +3,14 @@
   "solution": {
     "name": "sp-extension-sendto-client-side-solution",
     "id": "1f99d4ab-1f30-41d9-a778-97f909a834b0",
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
     "includeClientSideAssets": true,
     "features": [
       {
         "title": "Application Extension - Deployment of custom action.",
         "description": "Deploys a custom action with ClientSideComponentId association",
         "id": "13024016-a27f-4622-b59e-4f38c485fb91",
-        "version": "1.0.0.0",
+        "version": "1.0.0.1",
         "assets": {
           "elementManifests": [
             "elements.xml"
