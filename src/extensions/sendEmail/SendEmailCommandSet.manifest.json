@@ -17,7 +17,7 @@
 
   "items": {
     "spfxEmailTo": {
-      "title": { "default": "Send Email", "nl-nl": "Email Verzenden", "nl-be": "Ema il Verzenden" },
+      "title": { "default": "Send Email", "nl-nl": "Email Verzenden", "nl-be": "Email Verzenden" },
       "description": { "default": "Send email to selected persons", "nl-nl": "Verzend een email naar de geselecteerde personen", "nl-be": "Verzend een email naar de geselecteerde personen" },
       "iconImageUrl": "<url>",
       "type": "command"
