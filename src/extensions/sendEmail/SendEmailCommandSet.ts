@@ -78,7 +78,7 @@ export default class SendEmailCommandSet extends BaseListViewCommandSet<ISendEma
           .then(() => {
 
             let emailAddresses: string[] = [];
-            // send command to browser to open default mail client       
+            // send command to browser to open default mail client
             this.safeLog("all items retrieved");
             this.safeLog(items);
             items.forEach((item: any)=>{
@@ -90,7 +90,7 @@ export default class SendEmailCommandSet extends BaseListViewCommandSet<ISendEma
             });
             this.safeLog("all email addresses");
             this.safeLog(emailAddresses);
-            let mailto: string = `mailto:${this.properties.defaultTo}?bcc=${emailAddresses.join(';')}`;
+            let mailto: string = `mailto:${this.properties.defaultTo}?bcc=${emailAddresses.join(', ')}`;
             this.safeLog(mailto);
             window.location.href = mailto;
           })
